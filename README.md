@@ -12,6 +12,7 @@ Version 0.1.0
 * 'Enter' or 'Right Arrow' to manually advance
 * 'Left Arrow' to go to previous
 * "Esc" to exit
+* Supports Logitech presentation remote ('Next' / 'PageUp')
 
 *Note: the feature set is minimal for what my immediate needs. Potential features are listed below.*
 

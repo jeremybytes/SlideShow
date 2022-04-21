@@ -40,18 +40,20 @@ public partial class MainWindow : Window
         };
     }
 
-    private void Window_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+    private void Window_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
     {
         switch (e.Key)
         {
             case Key.Space:
                 Pause();
                 break;
+            case Key.Next:
             case Key.Right:
             case Key.Enter:
                 ShowNextImage();
                 break;
             case Key.Left:
+            case Key.PageUp:
                 ShowPreviousImage();
                 break;
             case Key.Escape:

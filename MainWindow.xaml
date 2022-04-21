@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SlideShow"
         mc:Ignorable="d"
         Title="Jeremy's Slide Show" Height="450" Width="800"
-        KeyUp="Window_KeyUp"
+        KeyDown="Window_KeyDown"
         Background="Black" WindowStartupLocation="CenterOwner" WindowState="Maximized">
     <Image Name="targetImage" Stretch="Uniform"/>
 </Window>
